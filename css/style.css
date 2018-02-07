@@ -46,7 +46,11 @@
 	align-items: center;
 }
 .img {
-	width: 680px;
-	position:relative;
+	width: 1500px;
+}
+.ban-text {
+	width: 250px;
+	font-size: 30px;
+	color: #677A87;
 }
 
