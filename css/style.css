@@ -16,8 +16,10 @@
 	display: flex;
 }
 .logo {
-	width: 100px;
+	width: 150px;
 	margin-left: 15px;
+	top: 34px;
+    position: relative;
 }
 .right-block {
 	width: 100%;
