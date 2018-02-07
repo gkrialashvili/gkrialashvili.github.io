@@ -1,0 +1,31 @@
+.container {
+	max-width: 1170px;
+	margin:0 auto;
+}
+.border-box {
+    height: 20px;
+    margin: 0 45px;
+}
+.wrapper {
+	align-items: center;
+	border:1px solid #A3ACB3;
+	border-top: 0;
+
+}
+.flex {
+	display: flex;
+}
+.logo {
+	width: 100px;
+	margin-left: 15px;
+}
+.right-block {
+	width: 100%;
+	justify-content: flex-end;
+}
+.nav a{
+	text-decoration: none;
+	padding: 0 18px;
+	color: #A3ACB3;
+	font-family: "roboto"
+}
