@@ -40,4 +40,13 @@
 	font-size: 25px;
 	font-family: "roboto";
 }
+.banner {
+	background-color: #F2F4F5;
+	margin-top: 50px;
+	align-items: center;
+}
+.img {
+	width: 680px;
+	position:relative;
+}
 
