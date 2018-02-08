@@ -56,6 +56,20 @@
 .right {
 	flex-direction: column;
 	width: 100%;
+	margin-left: 77px;
 
 }
-
+.cms {
+	border-bottom: 1px dotted;
+}
+.view  {
+	margin-top: 43px;
+	display: block;
+	width: 100%;
+}
+.view a {
+	background-color: #00AF9C;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
