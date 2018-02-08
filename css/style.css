@@ -46,11 +46,16 @@
 	align-items: center;
 }
 .img {
-	width: 1500px;
+	width: 680px;
 }
 .ban-text {
 	width: 250px;
 	font-size: 30px;
 	color: #677A87;
+}
+.right {
+	flex-direction: column;
+	width: 100%;
+
 }
 
