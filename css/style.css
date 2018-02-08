@@ -45,6 +45,9 @@
 	margin-top: 50px;
 	align-items: center;
 }
+.banner-box {
+	margin-top: 24px;
+}
 .img {
 	width: 680px;
 }
@@ -62,10 +65,11 @@
 .cms {
 	border-bottom: 1px dotted;
 }
+.tenten {
+	width: 100%;
+}
 .view  {
 	margin-top: 43px;
-	display: block;
-	width: 100%;
 }
 .view a {
 	background-color: #00AF9C;
