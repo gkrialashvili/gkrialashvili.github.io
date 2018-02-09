@@ -30,13 +30,13 @@
 	margin-right: 20px;
 	cursor: pointer;
 	display: none;
-	border: 1px solid #0704b7;
+	border: 2px solid #00AF9C;
 	padding: 3px 3px;
 }
 .burger div {
     width: 45px;
     height: 5px;
-    background-color: #0704b7;
+    background-color: #00AF9C;
     margin: 6px 0;
 }
 .nav a{
