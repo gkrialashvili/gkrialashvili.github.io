@@ -2,6 +2,7 @@
 	max-width: 1170px;
 	margin:0 auto;
 }
+
 .border-box {
     height: 20px;
     margin: 0 45px;
@@ -23,13 +24,32 @@
 }
 .right-block {
 	width: 100%;
-	justify-content: flex-end;
+	justify-content: space-between;
+}
+.burger {
+	margin-right: 20px;
+	cursor: pointer;
+	display: none;
+}
+.burger div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
 }
 .nav a{
 	text-decoration: none;
 	padding: 0 18px;
 	color: #A3ACB3;
 	font-family: "roboto"
+}
+@media (max-width: 1025px){
+	.nav {
+		display: none;
+	}
+	.burger {
+		display: block;
+	}	
 }
 .description {
 	text-align: center;
