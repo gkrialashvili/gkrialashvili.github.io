@@ -25,13 +25,19 @@
 							<li><a href="#">Contact</a></li>
 						</ul>
 					</nav>
-					<div class="burger">
+					<div class="burger" id="burger-menu">
 						<div class="line"></div>
 						<div class="line"></div>
 						<div class="line"></div>
 					</div>
 				</div>
 			</div>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<script type="text/javascript">
+				$("#burger-menu").on("click", function(){
+				    $("#burger-menu").toggleClass("active");
+				}); 
+			</script>
 	</header>
 	<div class="container description">
 		<h1>Freelance Web Designer & Developer based in Galway, Irland. <br/> Highly experienced in Designin & developing custom Worldpress Websites.</h1>

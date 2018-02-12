@@ -39,9 +39,11 @@
 }
 .burger .line:first-child {
 	top: 30%;
+
 }
 .burger  .line:last-child  {
 	top: 70%;
+
 }
 
 .burger div {
@@ -52,6 +54,21 @@
     width: 45px;
     height: 5px;
     background-color: white;
+	transition: 0.3s linear;
+}
+.burger.active .line:first-child {
+	top: 50%;
+	transform: translate(-50%, -50%) rotate(-45deg);
+
+
+}
+.burger.active .line:last-child {
+	top: 50%;
+	transform: translate(-50%, -50%) rotate(45deg);
+
+}
+.burger.active .line:nth-child(2) {
+	opacity: 0;
 }
 
 .nav a{
@@ -137,7 +154,6 @@
 article {
 	background-color: #F2F4F5;
 	text-align: center;
-	flex-direction: column;
 }
 article .title {
 	padding: 20px;
