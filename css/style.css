@@ -60,7 +60,7 @@
 	color: #A3ACB3;
 	font-family: "roboto"
 }
-@media (max-width: 860px){
+@media (max-width: 1025px){
 	.nav {
 		display: none;
 	}
@@ -68,7 +68,7 @@
 		display: block;
 	}
 	.container {
-		max-width: 860px;
+		max-width: 1025px;
 	}	
 }
 .description {
