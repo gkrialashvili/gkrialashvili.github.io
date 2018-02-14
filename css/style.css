@@ -87,7 +87,7 @@
 		flex-direction: column;
 	}
 	.container.flex.info {
-		flex-direction: column;
+		flex-wrap: wrap;
 	}
 	.info article {
 		width: 100%;
