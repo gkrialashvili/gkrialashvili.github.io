@@ -88,6 +88,7 @@
 	}
 	.container.flex.info {
 		flex-wrap: wrap;
+		margin: 1% auto;
 	}
 	.info article {
 		width: 100%;
