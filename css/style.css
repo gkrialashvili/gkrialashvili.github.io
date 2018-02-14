@@ -86,10 +86,13 @@
 	.banner {
 		flex-direction: column;
 	}
-	.info {
-
-    flex-direction: column;
-}
+	.container.flex.info {
+		flex-direction: column;
+	}
+	.info article {
+		width: 100%;
+		margin: 1% auto;
+	}
 
 }
 .description {
@@ -150,7 +153,6 @@
 article {
 	background-color: #F2F4F5;
 	text-align: center;
-	padding: 10px;
 	width: 30%;
 }
 article .title {
