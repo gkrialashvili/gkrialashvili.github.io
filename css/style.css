@@ -80,9 +80,6 @@
 		display: inline-block;
 		position: relative;
 	}
-	.container {
-		max-width: 800px;
-	}
 	.banner {
 		flex-direction: column;
 	}
