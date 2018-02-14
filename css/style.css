@@ -1,9 +1,7 @@
 .container {
 	max-width: 1280px;
 	margin:0 auto;
-
 }
-
 .border-box {
     height: 20px;
     margin: 0 45px;
@@ -12,7 +10,6 @@
 	align-items: center;
 	border:2px solid #EAEFF0;
 	border-top: 0;
-
 }
 .flex {
 	display: flex;
@@ -39,11 +36,9 @@
 }
 .burger .line:first-child {
 	top: 30%;
-
 }
 .burger  .line:last-child  {
 	top: 70%;
-
 }
 
 .burger div {
@@ -82,7 +77,8 @@
 		display: none;
 	}
 	.burger {
-		display: block;
+		display: inline-block;
+		position: relative;
 	}
 	.container {
 		max-width: 800px;
@@ -154,6 +150,8 @@
 article {
 	background-color: #F2F4F5;
 	text-align: center;
+	padding: 10px;
+	width: 30%;
 }
 article .title {
 	padding: 20px;
@@ -161,5 +159,7 @@ article .title {
 	font-size: 30px;
 }
 article p {
-	margin: 0 0 20px 0;
+	margin: 0 20px;
+	font-size: 24px;
+	color: #576170;
 }
