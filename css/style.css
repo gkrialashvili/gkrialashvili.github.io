@@ -2,6 +2,9 @@
 	max-width: 1280px;
 	margin:0 auto;
 }
+.font {
+	font-family: 'Varela Round', sans-serif;
+}
 .border-box {
     height: 20px;
     margin: 0 45px;
@@ -70,7 +73,6 @@
 	text-decoration: none;
 	padding: 0 18px;
 	color: #A3ACB3;
-	font-family: "roboto"
 }
 @media (max-width: 1025px){
 	.nav {
@@ -101,7 +103,6 @@
 	vertical-align: middle;
 	color: #677A87;
 	font-size: 25px;
-	font-family: "roboto";
 }
 .banner {
 	background-color: #F2F4F5;
