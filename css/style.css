@@ -73,7 +73,9 @@
 .nav a{
 	text-decoration: none;
 	padding: 0 18px;
-	color: #A3ACB3;
+	color: #525d68b3;
+	position: relative;
+	top: 10px;
 }
 @media (max-width: 1025px){
 	.nav {
