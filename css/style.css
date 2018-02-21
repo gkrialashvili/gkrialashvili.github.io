@@ -1,6 +1,7 @@
 .container {
-	max-width: 1280px;
+	max-width: 1170px;
 	margin:0 auto;
+	padding: 0 15px;
 }
 .font {
 	font-family: 'Varela Round', sans-serif;
@@ -18,8 +19,7 @@
 	display: flex;
 }
 .logo {
-	width: 150px;
-	margin-left: 15px;
+	max-width: 100px;
 	top: 25px;
     position: relative;
 }
@@ -29,7 +29,6 @@
 }
 .burger {
 	cursor: pointer;
-	margin-right: 15px;
 	display: none;
 	width: 60px;
 	height: 60px;
@@ -102,7 +101,7 @@
 	padding: 45px 0;
 	vertical-align: middle;
 	color: #677A87;
-	font-size: 25px;
+	font-size: 30px;
 }
 .banner {
 	background-color: #F2F4F5;
@@ -120,6 +119,7 @@
 	width: 250px;
 	font-size: 30px;
 	color: #677A87;
+	line-height: 1.1;
 }
 .right {
 	flex-direction: column;
@@ -139,14 +139,16 @@
 .view a {
 	background-color: #00AF9C;
     position: relative;
+    justify-content: space-between;
     left: 70px;
-    font-size: 20px;
+    font-size: 18px;
     padding: 10px 15px;
     text-align: center;
     text-decoration: none;
     color: white;
     border: 2px solid #00AF9C;
-    border-radius: 5px
+    border-radius: 5px;
+    width: 50%;
 }
 
 .container.flex.info {
