@@ -177,6 +177,7 @@ article p {
 }
 .main-container {
 	width: 100%;
+	margin-top: 20px;
 	background-color: #33485F;
 	height: 180px;
 	justify-content: center;
@@ -186,9 +187,10 @@ article p {
 	height: inherit;
 	align-items: center;
 	background-color: #2A3B4E;
+	justify-content: center;
 }
 .soc-icons {
-	width: 1170px;
+	width: 250px;
 	justify-content: space-around;
 }
 .circle {
