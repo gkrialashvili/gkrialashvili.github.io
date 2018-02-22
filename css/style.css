@@ -82,7 +82,7 @@
 	border-bottom: 2px solid #EAEFF0;
 	padding: 45px 0;
 	vertical-align: middle;
-	color: #677A87;
+	color: #63707e;
 	font-size: 30px;
 }
 .banner {
@@ -92,15 +92,15 @@
 
 }
 .banner-box {
-	margin-top: 24px;
+	margin: 24px;
+    margin-bottom: 12px;
 }
 .img {
 	width: 680px;
 }
 .ban-text {
-	width: 250px;
 	font-size: 30px;
-	color: #677A87;
+	color: #63707e;
 	line-height: 1.1;
 }
 .right {
@@ -175,6 +175,28 @@ article p {
     line-height: 25px;
     align-items: center;
 }
+.main-container {
+	width: 100%;
+	background-color: #33485F;
+	height: 180px;
+	justify-content: center;
+}
+.footer-container {
+	max-width: 1170px;
+	height: inherit;
+	align-items: center;
+	background-color: #2A3B4E;
+}
+.soc-icons {
+	width: 1170px;
+	justify-content: space-around;
+}
+.circle {
+  border-radius: 50%;
+  background-color: white;
+  width: 35px;
+  height: 35px;
+}
 
 @media (max-width: 1025px){
 	.nav {
@@ -198,7 +220,7 @@ article p {
 	}
 	.view a {
 		width: 90%;
-    	left: 7.5%;
+    	left: 2%;
 	}
 	.view-info a {
 		width: 90%;
