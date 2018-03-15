@@ -210,6 +210,8 @@ article p {
   background-color: white;
   width: 35px;
   height: 35px;
+  align-items: center;
+  line-height: 35px;
 }
 .circle:nth-child(1) {
 	background-color:#3664a2;
