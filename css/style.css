@@ -79,8 +79,8 @@
 .nav-home{
 	color: #00AF9C !important;
 }
-.nav a:nth-child(1) {
-/*	color: #00AF9C;*/
+.nav a:hover {
+	color: #00AF9C;
 }
 
 .description {
