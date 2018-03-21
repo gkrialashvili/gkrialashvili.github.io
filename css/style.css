@@ -110,7 +110,7 @@ html, body {
 }
 .planshet {
     left: -30px;
-    width: 168px;
+    width: 170px;
 }
 .mobile {
     left: 590px;
@@ -283,6 +283,19 @@ article p {
     left: -10px;
     width: 168px;
 }
+}
+@media (max-width: 1250px){
+	.container.flex.info {
+		flex-wrap: wrap;
+		margin: 19px auto;
+	}
+	.mobile {
+    	left: 465px;
+	}
+	.planshet {
+    	left: 95px;
+    	width: 168px;
+	}
 }
 
 @media (max-width: 1125px){
