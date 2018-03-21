@@ -1,6 +1,6 @@
 html, body {
     max-width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .container {
 	max-width: 1170px;
@@ -273,7 +273,7 @@ article p {
 }
 
 
-@media (max-width: 2000px){
+@media (max-width: 1125px){
 	.nav {
 		display: none;
 	}
