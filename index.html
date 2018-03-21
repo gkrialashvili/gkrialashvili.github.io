@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Home</title>
 	<link rel="shortcut icon" href="http://www.emilyridge.ie/wp-content/themes/skeleostrnge/lib/img/logo-web-developer-emily-ridge.png"/>
 	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
@@ -17,8 +18,8 @@
 			<a href="index.html"><img class="logo" src="http://www.emilyridge.ie/wp-content/themes/skeleostrnge/lib/img/logo-web-developer-emily-ridge.png"><a>
 				<div class="right-block flex">
 					<nav class="menu">
-						<ul class="nav flex">
-							<li><a class="nav-home" href="index.html">Home</a></li>
+						<ul id="nav-menu" class="nav flex">
+							<li><a class="Home" href="index.html">Home</a></li>
 							<li><a href="#">Portfolio</a></li>
 							<li><a href="#">Services</a></li>
 							<li><a href="#">About</a></li>
@@ -40,13 +41,20 @@
 					$("#burger-menu").toggleClass("active");
 				}); 
 			</script>
+			<script type="text/javascript">
+				$("#burger-menu").on("click", function(){
+					$("#nav-menu-menu").toggleClass("active");
+				}); 
+			</script>
 		</header>
 		<div class="container font description">
 			<h1>Freelance Web Designer & Developer based in Galway, Irland. <br/> Highly experienced in Designin & developing custom Worldpress Websites.</h1>
 		</div>
 		<div class="container banner font flex">
-			<div class="banner-box">
-				<img class="img" src="img/banner.svg">
+			<div class="banner-box flex">
+				<img class="desktop" src="img/desktop.png">
+				<img class="z-index planshet" src="img/planshet.png">
+				<img class="z-index mobile" src="img/mob.png">
 			</div>
 			<div class="right flex">
 				<h1 class="ban-text">Fully Responsive, <br/> custom designed <br/> WorldPress <span class="cms"> CMS </span> <br/> website </h1>
