@@ -271,7 +271,19 @@ article p {
     border-bottom: 40px solid #06BC9B;
     margin-top: 5px;
 }
-
+@media (max-width: 1300px){
+	.container.flex.info {
+		flex-wrap: wrap;
+		margin: 19px auto;
+	}
+	.mobile {
+    left: 535px;
+}
+.planshet {
+    left: -10px;
+    width: 168px;
+}
+}
 
 @media (max-width: 1125px){
 	.nav {
@@ -286,20 +298,20 @@ article p {
 	}
 	.container.flex.info {
 		flex-wrap: wrap;
-		margin: 1% auto;
+		margin: 19px auto;
 	}
 	.info article {
 		width: 100%;
-		margin: 2% auto;
-		padding: 1%;
+		margin: 20px auto;
+		padding: 0px;
 	}
 	.view a {
 		width: 90%;
-    	left: 2%;
+    	left: 50px;
 	}
 	.view-info a {
 		width: 90%;
-    	left: 7.5%;
+    	left: 75px;
 	}
 	.nav-footer {
 		display: none;
