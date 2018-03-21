@@ -273,7 +273,7 @@ article p {
 }
 
 
-@media (max-width: 1025px){
+@media (max-width: 1125px){
 	.nav {
 		display: none;
 	}
