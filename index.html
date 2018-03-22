@@ -11,6 +11,14 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+	<nav>
+		<ul role="navigation" class="hidden ul">
+			<li><a class="a" href="#">work</a></li>
+			<li><a class="a" href="#">about</a></li>
+			<li><a class="a" href="#">resume</a></li>
+			<li><a class="a" href="#">contact</a></li>
+		</ul>
+	</nav>
 	<header>
 		<div class="border-box">
 		</div>
@@ -40,11 +48,11 @@
 				$("#burger-menu").on("click", function(){
 					$("#burger-menu").toggleClass("active");
 				}); 
-			</script>
-			<script type="text/javascript">
-				$("#burger-menu").on("click", function(){
-					$("#nav-menu-menu").toggleClass("active");
-				}); 
+				$("#burger-menu").on('click', function() {
+  					$(this).toggleClass("on");
+  					$('#burger-menu').toggleClass("on");
+  					$("nav ul").toggleClass('hidden');
+				});
 			</script>
 		</header>
 		<div class="container font description">
