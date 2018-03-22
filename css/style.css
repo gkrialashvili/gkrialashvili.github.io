@@ -6,6 +6,7 @@ html, body {
 	max-width: 1170px;
 	margin:0 auto;
 	padding: 0 15px;
+
 }
 .font {
 	font-family: 'Varela Round', sans-serif;
@@ -98,23 +99,36 @@ html, body {
 	margin-top: 20px;
 	align-items: center;
 	position: relative;
+
 }
 .banner-box {
 	margin: 24px;
 	margin-bottom: 12px;
 }
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
 .z-index {
 	z-index: 10;
 	bottom: 10px;
 	position: absolute;
+	animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 .planshet {
     left: -30px;
     width: 170px;
+    transition: 1s linear;
 }
 .mobile {
     left: 590px;
+    transition: 1s;
 }
+
 .ban-text {
 	font-size: 30px;
 	color: #63707e;
@@ -278,10 +292,13 @@ article p {
 	}
 	.mobile {
     left: 535px;
+    transition: 1s linear;
+
 }
 .planshet {
     left: -10px;
     width: 168px;
+    transition: 1s;
 }
 }
 @media (max-width: 1250px){
