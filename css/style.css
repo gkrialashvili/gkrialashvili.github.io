@@ -82,7 +82,6 @@ nav .ul{
   text-align: center;
   z-index: 1;
   background-color: #00AF9C;
-  position: relative;
 }
 .hidden {
    display: none;
